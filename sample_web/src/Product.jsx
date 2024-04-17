@@ -4,8 +4,8 @@ function Product({ clickedProduct }) {
   return (
     <div className="bg-blue-900 text-white ">
       {clickedProduct && (
-        <div className="max-w-screen-lg mx-auto p-20 text-center font-mono">
-          <h1 className="text-3xl pb-8 font-bold mb-4 ">
+        <div className="max-w-screen-lg mx-auto h-screen text-center font-mono">
+          <h1 className="text-3xl pt-6 pb-8 font-bold mb-4 ">
             {clickedProduct.title}
           </h1>
           <img
