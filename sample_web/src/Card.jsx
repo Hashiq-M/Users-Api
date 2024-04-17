@@ -3,7 +3,7 @@ function Card({ image, title, price, onClick }) {
   return (
     <>
       <div
-        className="bg-white rounded-2xl p-5 m-10 w-80 h-5/6 cursor-pointer"
+        className="bg-white rounded-2xl p-5 m-10 w-80 h-4/5 cursor-pointer"
         onClick={onClick}
       >
         <img className="w-full h-48 object-cover" src={image} alt={title} />
