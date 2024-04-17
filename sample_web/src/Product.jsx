@@ -2,9 +2,9 @@ import PropTypes from "prop-types";
 
 function Product({ clickedProduct }) {
   return (
-    <div className="bg-blue-900 text-white ">
+    <div className="bg-blue-900 text-white min-h-screen">
       {clickedProduct && (
-        <div className="max-w-screen-lg mx-auto h-screen text-center font-mono">
+        <div className="max-w-screen-lg mx-auto text-center font-mono pb-1">
           <h1 className="text-3xl pt-6 pb-8 font-bold mb-4 ">
             {clickedProduct.title}
           </h1>
@@ -21,7 +21,7 @@ function Product({ clickedProduct }) {
             <span className="font-bold text-xl">Category : </span>
             {clickedProduct.category}
           </p>
-          <p className="text-lg  mb-2 mx-auto">
+          <p className="text-lg  mb-2 mx-auto pb-0">
             <span className="font-bold text-xl">Description : </span>
             {clickedProduct.description}
           </p>
