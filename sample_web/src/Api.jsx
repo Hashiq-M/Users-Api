@@ -22,7 +22,7 @@ function Api({ setClickedProduct }) {
   }
 
   return (
-    <>
+    <div className="bg-gradient-to-r from-cyan-500 to-blue-900">
       <h1 className="text-center text-white font-mono text-4xl font-bold tracking-widest p-10">
         THE MADRAS KADAI
       </h1>
@@ -40,7 +40,7 @@ function Api({ setClickedProduct }) {
             </Link>
           ))}
       </div>
-    </>
+    </div>
   );
 }
 Api.propTypes = {
